@@ -96,7 +96,7 @@ function ManageOrders() {
 
         <div className="bg-white rounded-2xl shadow p-6 mb-6">
 
-          <h1 className="text-3xl font-bold text-blue-600">
+          <h1 className="text-3xl font-bold text-green-600">
             Manage Orders
           </h1>
 
@@ -108,13 +108,13 @@ function ManageOrders() {
 
         <div className="grid md:grid-cols-3 gap-4 mb-6">
 
-          <div className="bg-blue-50 rounded-2xl p-5">
+          <div className="bg-green-50 rounded-2xl p-5">
 
             <h3 className="text-slate-500">
               Total Orders
             </h3>
 
-            <p className="text-3xl font-bold text-blue-600 mt-2">
+            <p className="text-3xl font-bold text-green-600 mt-2">
               {orders.length}
             </p>
 
@@ -274,7 +274,7 @@ function ManageOrders() {
                               ? "bg-purple-100 text-purple-700"
                               : order.orderStatus ===
                                 "Approved"
-                              ? "bg-blue-100 text-blue-700"
+                              ? "bg-green-100 text-green-700"
                               : "bg-yellow-100 text-yellow-700"
                           }`}
                         >
@@ -329,7 +329,7 @@ function ManageOrders() {
                                 "Packed"
                               )
                             }
-                            className="bg-blue-600 text-white px-3 py-1 rounded disabled:bg-gray-400"
+                            className="bg-green-600 text-white px-3 py-1 rounded disabled:bg-gray-400"
                           >
                             Packed
                           </button>

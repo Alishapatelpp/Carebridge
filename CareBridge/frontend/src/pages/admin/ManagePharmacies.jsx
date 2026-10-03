@@ -90,7 +90,7 @@ function ManagePharmacies() {
 
         {/* Header */}
         <div className="bg-white dark:bg-slate-800 rounded-2xl shadow-md p-6 mb-6">
-          <h1 className="text-3xl font-bold text-blue-600">
+          <h1 className="text-3xl font-bold text-green-600">
             Manage Pharmacies
           </h1>
 
@@ -107,7 +107,7 @@ function ManagePharmacies() {
               Total Pharmacies
             </h3>
 
-            <p className="text-3xl font-bold text-blue-600 mt-2">
+            <p className="text-3xl font-bold text-green-600 mt-2">
               {pharmacies.length}
             </p>
           </div>
@@ -228,7 +228,7 @@ function ManagePharmacies() {
                 setCity("");
                 setStatus("");
               }}
-              className="bg-blue-600 text-white rounded-xl p-3"
+              className="bg-green-600 text-white rounded-xl p-3"
             >
               Reset Filters
             </button>
@@ -288,7 +288,7 @@ function ManagePharmacies() {
               <div className="flex flex-col md:flex-row md:justify-between md:items-center">
 
                 <div>
-                  <h2 className="text-xl font-bold text-blue-600">
+                  <h2 className="text-xl font-bold text-green-600">
                     {pharmacy.pharmacyName}
                   </h2>
 
@@ -352,7 +352,7 @@ function ManagePharmacies() {
 
               <div className="flex flex-wrap gap-3 mt-5">
 
-                <button className="bg-blue-600 text-white px-4 py-2 rounded-xl">
+                <button className="bg-green-600 text-white px-4 py-2 rounded-xl">
                   View
                 </button>
 

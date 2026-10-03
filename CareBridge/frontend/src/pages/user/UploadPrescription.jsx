@@ -99,7 +99,7 @@ function UploadPrescription() {
 
         <div className="max-w-3xl mx-auto bg-white dark:bg-slate-800 border border-slate-100 dark:border-slate-700 rounded-2xl shadow-md p-8">
 
-          <h1 className="text-3xl md:text-4xl font-bold text-blue-600 dark:text-blue-400 mb-4">
+          <h1 className="text-3xl md:text-4xl font-bold text-green-600 dark:text-green-400 mb-4">
             Upload Prescription
           </h1>
 
@@ -141,7 +141,7 @@ function UploadPrescription() {
               onChange={
                 handleFileChange
               }
-              className="mb-4 block w-full text-sm text-slate-600 dark:text-slate-300 file:mr-4 file:py-2 file:px-4 file:rounded-lg file:border-0 file:bg-blue-600 file:text-white hover:file:bg-blue-700"
+              className="mb-4 block w-full text-sm text-slate-600 dark:text-slate-300 file:mr-4 file:py-2 file:px-4 file:rounded-lg file:border-0 file:bg-green-600 file:text-white hover:file:bg-green-700"
             />
 
             <p className="text-slate-500 dark:text-slate-300">
@@ -172,7 +172,7 @@ function UploadPrescription() {
             disabled={
               uploading
             }
-            className="mt-6 bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-all duration-300 disabled:bg-blue-300"
+            className="mt-6 bg-green-600 text-white px-6 py-3 rounded-lg hover:bg-green-700 transition-all duration-300 disabled:bg-green-300"
           >
             {uploading
               ? "Uploading..."

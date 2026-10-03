@@ -35,7 +35,7 @@ function PharmacyDashboard() {
   return (
     <AppLayout>
       <div className="min-h-screen bg-slate-100 dark:bg-slate-900 p-6 transition-all duration-300">
-        <h1 className="text-4xl font-bold text-blue-600 mb-6">
+        <h1 className="text-4xl font-bold text-green-600 mb-6">
           Pharmacy Dashboard
         </h1>
 

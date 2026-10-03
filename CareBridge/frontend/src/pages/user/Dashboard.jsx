@@ -173,7 +173,7 @@ const placeOrder = async () => {
 
         {/* Welcome */}
         <div className="bg-white dark:bg-slate-800 rounded-2xl shadow-md px-6 py-4 mb-6">
-          <h1 className="text-2xl font-bold text-blue-600 flex items-center gap-2">
+          <h1 className="text-2xl font-bold text-green-600 flex items-center gap-2">
             👋 Welcome {userName}
           </h1>
 
@@ -198,11 +198,11 @@ const placeOrder = async () => {
 
       <Package
         size={18}
-        className="text-blue-600"
+        className="text-green-600"
       />
     </div>
 
-    <p className="text-2xl font-bold text-blue-600 mt-2">
+    <p className="text-2xl font-bold text-green-600 mt-2">
       {stats.orders}
     </p>
   </div>
@@ -351,7 +351,7 @@ navigate("/nearby-pharmacies")
 
             <button
               onClick={searchMedicine}
-              className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg"
+              className="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-lg"
             >
               {loading
                 ? "Searching..."
@@ -490,7 +490,7 @@ navigate("/nearby-pharmacies")
                               onClick={() =>
                                 setSelectedOrder(item)
                               }
-                              className="bg-blue-600 hover:bg-blue-700 text-white px-3 py-2 rounded"
+                              className="bg-green-600 hover:bg-green-700 text-white px-3 py-2 rounded"
                             >
                               Buy Now
                             </button>

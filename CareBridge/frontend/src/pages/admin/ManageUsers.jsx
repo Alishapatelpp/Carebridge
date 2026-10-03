@@ -109,7 +109,7 @@ function ManageUsers() {
 
         {/* Header */}
         <div className="bg-white dark:bg-slate-800 rounded-2xl shadow-md p-6 mb-6">
-          <h1 className="text-3xl font-bold text-blue-600">
+          <h1 className="text-3xl font-bold text-green-600">
             Manage Users
           </h1>
 
@@ -122,7 +122,7 @@ function ManageUsers() {
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-6">
 
           <div className="bg-white rounded-2xl p-5 shadow">
-            <Users className="text-blue-600 mb-2" />
+            <Users className="text-green-600 mb-2" />
 
             <h3 className="text-slate-500">
               Total Users
@@ -282,7 +282,7 @@ function ManageUsers() {
                 setLocation("");
                 setStatus("");
               }}
-              className="bg-blue-600 text-white rounded-xl p-3"
+              className="bg-green-600 text-white rounded-xl p-3"
             >
               Reset Filters
             </button>
@@ -303,7 +303,7 @@ function ManageUsers() {
               <div className="flex flex-col md:flex-row md:justify-between md:items-center">
 
                 <div>
-                  <h2 className="text-xl font-bold text-blue-600">
+                  <h2 className="text-xl font-bold text-green-600">
                     {user.name}
                   </h2>
 
@@ -351,7 +351,7 @@ function ManageUsers() {
 
               <div className="flex flex-wrap gap-3 mt-5">
 
-                <button className="bg-blue-600 text-white px-4 py-2 rounded-xl">
+                <button className="bg-green-600 text-white px-4 py-2 rounded-xl">
                   View
                 </button>
 

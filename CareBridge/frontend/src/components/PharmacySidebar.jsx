@@ -17,6 +17,7 @@ import {
   Moon,
   Sun,
 } from "lucide-react";
+import Logo from "./Logo";
 
 import { useTheme } from "../theme/ThemeProvider";
 
@@ -40,7 +41,7 @@ const user = JSON.parse(
   const navClass = ({ isActive }) =>
     `flex items-center gap-3 p-3 rounded-lg transition-all duration-300 ${
       isActive
-        ? "bg-blue-100 dark:bg-blue-900/40 text-blue-600 dark:text-blue-400 font-semibold"
+        ? "bg-green-100 dark:bg-green-900/40 text-green-600 dark:text-green-400 font-semibold"
         : "text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-700"
     }`;
 
@@ -48,9 +49,7 @@ const user = JSON.parse(
     <>
       {!open && (
         <div className="md:hidden bg-white dark:bg-slate-800 border-b shadow-md p-4 flex items-center justify-between">
-          <h1 className="text-xl font-bold text-blue-600">
-            CareBridge
-          </h1>
+          <Logo imageClassName="h-16" />
 
           <button
             onClick={() => setOpen(true)}
@@ -85,9 +84,7 @@ const user = JSON.parse(
       >
         <div className="flex items-center justify-between mb-8">
           <div>
-            <h1 className="text-2xl font-bold text-blue-600">
-              CareBridge
-            </h1>
+            <Logo imageClassName="h-20" />
 
             <p className="text-sm text-slate-500 dark:text-slate-400">
               Pharmacy Portal
@@ -105,7 +102,7 @@ const user = JSON.parse(
 
             <div className="mb-6 p-4 rounded-xl bg-slate-100 dark:bg-slate-700 border border-slate-200 dark:border-slate-600">
             <div className="flex items-center gap-3">
-              <div className="w-12 h-12 rounded-full bg-blue-600 text-white flex items-center justify-center font-bold text-lg">
+              <div className="w-12 h-12 rounded-full bg-green-600 text-white flex items-center justify-center font-bold text-lg">
                 {user?.name?.charAt(0) || "P"}
               </div>
 

@@ -61,7 +61,7 @@ function Notifications() {
 
           <div className="bg-white dark:bg-slate-800 border border-slate-100 dark:border-slate-700 rounded-2xl shadow-md px-6 py-4 mb-6">
 
-            <h1 className="text-2xl font-bold text-blue-600 dark:text-blue-400">
+            <h1 className="text-2xl font-bold text-green-600 dark:text-green-400">
               Notifications
             </h1>
 
@@ -91,7 +91,7 @@ function Notifications() {
                     className={`rounded-2xl shadow-md p-6 border transition-all duration-300 hover:shadow-xl ${
                       notification.isRead
                         ? "bg-slate-50 dark:bg-slate-800 border-slate-200 dark:border-slate-700"
-                        : "bg-white dark:bg-slate-800 border-blue-300 dark:border-blue-500"
+                        : "bg-white dark:bg-slate-800 border-green-300 dark:border-green-500"
                     }`}
                   >
                     <h2 className="text-lg font-semibold dark:text-white">
@@ -118,7 +118,7 @@ function Notifications() {
                               notification._id
                             )
                           }
-                          className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg"
+                          className="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg"
                         >
                           Mark Read
                         </button>

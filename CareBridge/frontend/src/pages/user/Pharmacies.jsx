@@ -41,7 +41,7 @@ function Pharmacies() {
 
         {/* Header */}
         <div className="bg-white dark:bg-slate-800 border border-slate-100 dark:border-slate-700 rounded-2xl shadow-md px-6 py-4 mb-6">
-          <h1 className="text-2xl md:text-4xl font-bold text-blue-600 dark:text-blue-400">
+          <h1 className="text-2xl md:text-4xl font-bold text-green-600 dark:text-green-400">
             Nearby Pharmacies
           </h1>
 
@@ -77,7 +77,7 @@ function Pharmacies() {
                 (pharmacy) => (
                   <div
                     key={pharmacy._id}
-                    className="bg-white dark:bg-slate-800 border border-slate-100 dark:border-slate-700 rounded-2xl shadow-md p-6 hover:shadow-xl hover:-translate-y-1 hover:border-blue-200 dark:hover:border-blue-500 transition-all duration-300"
+                    className="bg-white dark:bg-slate-800 border border-slate-100 dark:border-slate-700 rounded-2xl shadow-md p-6 hover:shadow-xl hover:-translate-y-1 hover:border-green-200 dark:hover:border-green-500 transition-all duration-300"
                   >
                     <h2 className="text-2xl font-semibold dark:text-white">
                       {pharmacy.pharmacyName}
@@ -116,7 +116,7 @@ function Pharmacies() {
                       {pharmacy.status}
                     </p>
 
-                    <button className="mt-4 w-full bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-all duration-300">
+                    <button className="mt-4 w-full bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700 transition-all duration-300">
                       View Details
                     </button>
                   </div>

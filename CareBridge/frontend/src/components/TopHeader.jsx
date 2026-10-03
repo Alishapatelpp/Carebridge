@@ -7,20 +7,33 @@ import {
 
 import {
   useEffect,
+  useContext,
   useState,
 } from "react";
 
 import { useTheme } from "../theme/ThemeProvider";
+import { AuthContext } from "../context/AuthContext";
 import api from "../services/api";
 
 function TopHeader() {
   const { darkMode, setDarkMode } =
     useTheme();
+  const { user } = useContext(AuthContext);
 
   const [
     notificationCount,
     setNotificationCount,
   ] = useState(0);
+
+  const userInitials =
+    user?.name
+      ?.trim()
+      .split(/\s+/)
+      .filter(Boolean)
+      .slice(0, 2)
+      .map((namePart) => namePart[0])
+      .join("")
+      .toUpperCase() || "U";
 
   useEffect(() => {
     fetchNotificationCount();
@@ -109,8 +122,8 @@ function TopHeader() {
 
         {/* User Avatar */}
 
-        <div className="w-9 h-9 md:w-10 md:h-10 rounded-full bg-blue-600 text-white flex items-center justify-center font-bold text-sm md:text-base flex-shrink-0">
-          UM
+        <div className="w-9 h-9 md:w-10 md:h-10 rounded-full bg-green-600 text-white flex items-center justify-center font-bold text-sm md:text-base flex-shrink-0">
+          {userInitials}
         </div>
 
       </div>

@@ -4,7 +4,7 @@ function NotFound() {
   return (
     <div className="min-h-screen bg-slate-100 dark:bg-slate-900 flex flex-col items-center justify-center px-6">
 
-      <h1 className="text-8xl font-bold text-blue-600 dark:text-blue-400">
+      <h1 className="text-8xl font-bold text-green-600 dark:text-green-400">
         404
       </h1>
 
@@ -18,7 +18,7 @@ function NotFound() {
 
       <Link
         to="/dashboard"
-        className="mt-6 bg-blue-600 text-white px-6 py-3 rounded-xl hover:bg-blue-700 transition-all duration-300"
+        className="mt-6 bg-green-600 text-white px-6 py-3 rounded-xl hover:bg-green-700 transition-all duration-300"
       >
         Back to Dashboard
       </Link>

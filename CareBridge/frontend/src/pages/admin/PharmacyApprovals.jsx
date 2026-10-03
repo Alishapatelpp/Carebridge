@@ -77,7 +77,7 @@ function PharmacyApprovals() {
         {/* Page Header */}
         <div className="bg-white dark:bg-slate-800 rounded-2xl shadow-md p-6 mb-6">
 
-          <h1 className="text-3xl font-bold text-blue-600">
+          <h1 className="text-3xl font-bold text-green-600">
             Pharmacy Approvals
           </h1>
 
@@ -120,7 +120,7 @@ function PharmacyApprovals() {
               <div className="flex flex-col md:flex-row md:items-center md:justify-between">
 
                 <div>
-                  <h2 className="text-2xl font-bold text-blue-600">
+                  <h2 className="text-2xl font-bold text-green-600">
                     {pharmacy.pharmacyName}
                   </h2>
 

@@ -80,7 +80,7 @@ function PharmacyRegister() {
         
         <Link
           to="/"
-          className="text-blue-600 hover:underline"
+          className="text-green-600 hover:underline"
         >
           ← Back to Home
         </Link>
@@ -88,10 +88,10 @@ function PharmacyRegister() {
         <div className="text-center mt-4 mb-8">
           <Building2
             size={60}
-            className="mx-auto text-blue-600"
+            className="mx-auto text-green-600"
           />
 
-          <h1 className="text-3xl font-bold text-blue-600 mt-3">
+          <h1 className="text-3xl font-bold text-green-600 mt-3">
             Pharmacy Registration
           </h1>
 
@@ -344,8 +344,8 @@ function PharmacyRegister() {
           </div>
 
           {/* Info */}
-          <div className="md:col-span-2 bg-blue-50 dark:bg-slate-700 rounded-xl p-4 border border-blue-100 dark:border-slate-600">
-            <p className="text-blue-700 dark:text-blue-300 text-sm">
+          <div className="md:col-span-2 bg-green-50 dark:bg-slate-700 rounded-xl p-4 border border-green-100 dark:border-slate-600">
+            <p className="text-green-700 dark:text-green-300 text-sm">
               📌 After submitting your application,
               our administrator will verify your
               pharmacy details and license certificate
@@ -356,7 +356,7 @@ function PharmacyRegister() {
           {/* Submit */}
           <button
             type="submit"
-            className="md:col-span-2 bg-blue-600 text-white py-3 rounded-xl hover:bg-blue-700 transition duration-300"
+            className="md:col-span-2 bg-green-600 text-white py-3 rounded-xl hover:bg-green-700 transition duration-300"
           >
             Submit Application
           </button>

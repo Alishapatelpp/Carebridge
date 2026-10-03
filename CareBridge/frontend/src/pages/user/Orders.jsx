@@ -40,7 +40,7 @@ function Orders() {
         return "bg-green-100 text-green-700";
 
       case "Approved":
-        return "bg-blue-100 text-blue-700";
+        return "bg-green-100 text-green-700";
 
       case "Packed":
         return "bg-purple-100 text-purple-700";
@@ -80,7 +80,7 @@ function Orders() {
 
         <div className="bg-white dark:bg-slate-800 rounded-2xl shadow p-6 mb-6">
 
-          <h1 className="text-3xl font-bold text-blue-600">
+          <h1 className="text-3xl font-bold text-green-600">
             My Orders
           </h1>
 

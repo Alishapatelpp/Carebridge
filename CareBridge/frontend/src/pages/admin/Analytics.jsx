@@ -113,7 +113,7 @@ function Analytics() {
 
         <div className="bg-white dark:bg-slate-800 rounded-2xl shadow-md p-6 mb-6">
 
-          <h1 className="text-2xl font-bold text-blue-600 dark:text-blue-400">
+          <h1 className="text-2xl font-bold text-green-600 dark:text-green-400">
             Analytics Dashboard
           </h1>
 
@@ -138,7 +138,7 @@ function Analytics() {
                   Total Users
                 </h3>
 
-                <p className="text-2xl font-bold text-blue-600 mt-2">
+                <p className="text-2xl font-bold text-green-600 mt-2">
                   {stats.totalUsers}
                 </p>
               </div>

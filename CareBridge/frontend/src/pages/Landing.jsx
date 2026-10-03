@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { Link } from "react-router-dom";
 
 import Navbar from "../components/Navbar";
@@ -6,6 +5,7 @@ import Hero from "../components/Hero";
 import FeatureCard from "../components/FeatureCard";
 import Footer from "../components/Footer";
 import medicineBackground from "../assets/medicine-background.png";
+import { useTheme } from "../theme/ThemeProvider";
 
 import {
   Search,
@@ -15,7 +15,7 @@ import {
 } from "lucide-react";
 
 function Landing() {
-  const [darkMode, setDarkMode] = useState(false);
+  const { darkMode, setDarkMode } = useTheme();
 
   return (
     <div
@@ -64,7 +64,7 @@ function Landing() {
             icon={
               <Search
                 size={40}
-                className="text-blue-500"
+                className="text-green-500"
               />
             }
             title="Search Medicines"
@@ -110,7 +110,7 @@ function Landing() {
           <div className="flex justify-center mb-4">
             <Building2
               size={50}
-              className="text-blue-600"
+              className="text-green-600"
             />
           </div>
 
@@ -128,7 +128,7 @@ function Landing() {
 
           <Link
             to="/pharmacy-register"
-            className="inline-block bg-blue-600 text-white px-8 py-3 rounded-xl hover:bg-blue-700 transition-all duration-300"
+            className="inline-block bg-green-600 text-white px-8 py-3 rounded-xl hover:bg-green-700 transition-all duration-300"
           >
             Register Pharmacy
           </Link>

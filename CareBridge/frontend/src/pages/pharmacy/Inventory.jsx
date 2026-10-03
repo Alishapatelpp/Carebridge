@@ -152,7 +152,7 @@ const saveMedicine = async () => {
       <div className="min-h-screen bg-slate-100 dark:bg-slate-900 p-6 transition-all duration-300">
 
         <div className="flex items-center justify-between mb-6">
-          <h1 className="text-4xl font-bold text-blue-600">
+          <h1 className="text-4xl font-bold text-green-600">
             Inventory Management
           </h1>
 
@@ -160,7 +160,7 @@ const saveMedicine = async () => {
             onClick={() =>
               setShowModal(true)
             }
-            className="bg-blue-600 text-white px-5 py-3 rounded-lg hover:bg-blue-700 transition-all"
+            className="bg-green-600 text-white px-5 py-3 rounded-lg hover:bg-green-700 transition-all"
           >
             + Add Medicine
           </button>
@@ -261,7 +261,7 @@ const saveMedicine = async () => {
                         onClick={() =>
                           setSelectedMedicine(item)
                         }
-                        className="bg-blue-600 hover:bg-blue-700 text-white px-3 py-1 rounded"
+                        className="bg-green-600 hover:bg-green-700 text-white px-3 py-1 rounded"
                       >
                         View
                       </button>
@@ -474,7 +474,7 @@ const saveMedicine = async () => {
                   onClick={
                     saveMedicine
                   }
-                  className="px-4 py-2 bg-blue-600 text-white rounded"
+                  className="px-4 py-2 bg-green-600 text-white rounded"
                 >
                   Save
                 </button>

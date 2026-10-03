@@ -109,7 +109,7 @@ function PharmacyProfile() {
   return (
     <AppLayout>
       <div className="min-h-screen bg-slate-100 dark:bg-slate-900 p-6">
-        <h1 className="text-4xl font-bold text-blue-600 mb-6">
+        <h1 className="text-4xl font-bold text-green-600 mb-6">
           Pharmacy Profile
         </h1>
 
@@ -354,8 +354,8 @@ function PharmacyProfile() {
   />
 </div>
             
-<div className="md:col-span-2 bg-blue-50 p-4 rounded-lg">
-  <h3 className="font-semibold text-blue-700">
+<div className="md:col-span-2 bg-green-50 p-4 rounded-lg">
+  <h3 className="font-semibold text-green-700">
     Delivery Information
   </h3>
 
@@ -380,7 +380,7 @@ function PharmacyProfile() {
                 onClick={() =>
                   setEditMode(true)
                 }
-                className="bg-blue-600 text-white px-5 py-3 rounded-lg"
+                className="bg-green-600 text-white px-5 py-3 rounded-lg"
               >
                 Edit Profile
               </button>

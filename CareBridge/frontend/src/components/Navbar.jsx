@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import ThemeToggle from "./ThemeToggle";
 import { Link } from "react-router-dom";
+import Logo from "./Logo";
  
 function Navbar({ darkMode, setDarkMode }) {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -16,21 +17,19 @@ function Navbar({ darkMode, setDarkMode }) {
     >
       <div className="flex items-center justify-between px-6 py-4">
         {/* Logo */}
-        <h1 className="text-2xl font-bold text-blue-600">
-          CareBridge
-        </h1>
+        <Logo imageClassName="h-20" />
  
         {/* Desktop Menu */}
         <div className="hidden md:flex items-center gap-6">
-          <a href="#" className="hover:text-blue-600">
+          <a href="#" className="hover:text-green-600">
             Home
           </a>
  
-          <a href="#features" className="hover:text-blue-600">
+          <a href="#features" className="hover:text-green-600">
             Features
           </a>
  
-          <a href="#about" className="hover:text-blue-600">
+          <a href="#about" className="hover:text-green-600">
             About
           </a>
         </div>
@@ -51,7 +50,7 @@ function Navbar({ darkMode, setDarkMode }) {
  
           <Link
             to="/signup"
-            className="bg-blue-600 text-white px-4 py-2 rounded-lg"
+            className="bg-green-600 text-white px-4 py-2 rounded-lg"
           >
             Sign Up
           </Link>
@@ -109,7 +108,7 @@ function Navbar({ darkMode, setDarkMode }) {
  
             <Link
               to="/signup"
-              className="bg-blue-600 text-white px-4 py-2 rounded-lg text-center"
+              className="bg-green-600 text-white px-4 py-2 rounded-lg text-center"
               onClick={() => setMenuOpen(false)}
             >
             Sign Up

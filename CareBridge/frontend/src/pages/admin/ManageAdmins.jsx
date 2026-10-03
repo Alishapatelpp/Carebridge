@@ -180,7 +180,7 @@ const toggleAdminStatus =
       case 2:
         return "bg-purple-100 text-purple-600";
       case 3:
-        return "bg-blue-100 text-blue-600";
+        return "bg-green-100 text-green-600";
       default:
         return "bg-slate-100 text-slate-600";
     }
@@ -225,7 +225,7 @@ const toggleAdminStatus =
 
         {/* Header */}
         <div className="bg-white rounded-2xl shadow p-6 mb-6">
-          <h1 className="text-3xl font-bold text-blue-600">
+          <h1 className="text-3xl font-bold text-green-600">
             Manage Admins
           </h1>
 
@@ -242,7 +242,7 @@ const toggleAdminStatus =
               Total Admins
             </p>
 
-            <h2 className="text-3xl font-bold text-blue-600">
+            <h2 className="text-3xl font-bold text-green-600">
               {admins.length}
             </h2>
           </div>
@@ -315,7 +315,7 @@ const toggleAdminStatus =
         {/* Create Admin */}
         <div className="bg-white rounded-2xl shadow p-6 mb-6">
 
-          <h2 className="text-xl font-bold text-blue-600 mb-4">
+          <h2 className="text-xl font-bold text-green-600 mb-4">
             Create Admin
           </h2>
 
@@ -389,7 +389,7 @@ const toggleAdminStatus =
 
           <button
             onClick={createAdmin}
-            className="mt-4 bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-xl"
+            className="mt-4 bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-xl"
           >
             Create Admin
           </button>
@@ -423,7 +423,7 @@ const toggleAdminStatus =
                 <div className="flex flex-col md:flex-row md:justify-between md:items-center">
 
                   <div>
-                    <h2 className="text-xl font-bold text-blue-600">
+                    <h2 className="text-xl font-bold text-green-600">
                       {admin.name}
                     </h2>
 
@@ -488,7 +488,7 @@ const toggleAdminStatus =
                     onClick={() =>
                     openEditModal(admin)
                     }
-                    className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-xl"
+                    className="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-xl"
                 >
                     Edit
                 </button>

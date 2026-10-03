@@ -17,8 +17,8 @@ function ApplicationSubmitted() {
         </h1>
 
         {/* Application ID */}
-        <div className="mt-6 bg-blue-50 dark:bg-slate-700 border border-blue-200 dark:border-slate-600 rounded-2xl p-4">
-          <h3 className="font-semibold text-blue-600">
+        <div className="mt-6 bg-green-50 dark:bg-slate-700 border border-green-200 dark:border-slate-600 rounded-2xl p-4">
+          <h3 className="font-semibold text-green-600">
             Application ID
           </h3>
 
@@ -246,7 +246,7 @@ function ApplicationSubmitted() {
 
           <Link
             to="/"
-            className="bg-blue-600 text-white px-6 py-3 rounded-xl hover:bg-blue-700 transition duration-300"
+            className="bg-green-600 text-white px-6 py-3 rounded-xl hover:bg-green-700 transition duration-300"
           >
             Back To Home
           </Link>

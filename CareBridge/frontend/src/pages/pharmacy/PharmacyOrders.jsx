@@ -41,7 +41,7 @@ function PharmacyOrders() {
     <AppLayout>
       <div className="min-h-screen bg-slate-100 dark:bg-slate-900 p-6 transition-all duration-300">
 
-        <h1 className="text-4xl font-bold text-blue-600 mb-6">
+        <h1 className="text-4xl font-bold text-green-600 mb-6">
           Pharmacy Orders
         </h1>
 
@@ -149,7 +149,7 @@ function PharmacyOrders() {
                             "Packed"
                           )
                         }
-                        className="bg-blue-600 hover:bg-blue-700 text-white px-3 py-1 rounded transition-all"
+                        className="bg-green-600 hover:bg-green-700 text-white px-3 py-1 rounded transition-all"
                       >
                         Packed
                       </button>

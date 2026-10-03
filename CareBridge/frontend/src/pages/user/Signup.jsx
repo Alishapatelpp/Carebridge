@@ -81,12 +81,12 @@ function Signup() {
 
         <Link
           to="/"
-          className="inline-block mb-4 text-blue-600 hover:underline"
+          className="inline-block mb-4 text-green-600 hover:underline"
         >
           ← Back to Home
         </Link>
 
-        <h1 className="text-3xl font-bold text-blue-600 text-center">
+        <h1 className="text-3xl font-bold text-green-600 text-center">
           Create Account
         </h1>
 
@@ -197,7 +197,7 @@ function Signup() {
           <button
             type="submit"
             disabled={loading}
-            className="w-full bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-700"
+            className="w-full bg-green-600 text-white py-3 rounded-lg hover:bg-green-700"
           >
             {loading
               ? "Creating Account..."
@@ -209,7 +209,7 @@ function Signup() {
           Already have an account?{" "}
           <Link
             to="/login"
-            className="text-blue-600 hover:underline"
+            className="text-green-600 hover:underline"
           >
             Login
           </Link>

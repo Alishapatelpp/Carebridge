@@ -1,23 +1,22 @@
 import { Link } from "react-router-dom";
+import Logo from "./Logo";
 
 function DashboardNavbar() {
   return (
     <nav className="bg-white shadow-md rounded-2xl p-4 mb-6">
       <div className="flex items-center justify-between">
-        <h1 className="text-2xl font-bold text-blue-600">
-          CareBridge
-        </h1>
+        <Logo imageClassName="h-20" />
 
         <div className="flex items-center gap-4">
           <Link
             to="/"
-            className="hover:text-blue-600"
+            className="hover:text-green-600"
           >
             Home
           </Link>
             <Link
             to="/profile"
-            className="hover:text-blue-600"
+            className="hover:text-green-600"
             >
             Profile
             </Link>

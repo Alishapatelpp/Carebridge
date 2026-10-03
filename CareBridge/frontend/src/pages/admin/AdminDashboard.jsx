@@ -41,7 +41,7 @@ function AdminDashboard() {
         <TopHeader />
 
         <div className="bg-white dark:bg-slate-800 border border-slate-100 dark:border-slate-700 rounded-2xl shadow-md px-6 py-4 mb-6">
-          <h1 className="text-2xl font-bold text-blue-600 dark:text-blue-400">
+          <h1 className="text-2xl font-bold text-green-600 dark:text-green-400">
             Admin Dashboard
           </h1>
 
@@ -61,11 +61,11 @@ function AdminDashboard() {
 
               <Users
                 size={18}
-                className="text-blue-600"
+                className="text-green-600"
               />
             </div>
 
-            <p className="text-2xl font-bold text-blue-600 mt-2">
+            <p className="text-2xl font-bold text-green-600 mt-2">
               {stats.totalUsers}
             </p>
           </div>

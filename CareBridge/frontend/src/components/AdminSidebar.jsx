@@ -9,6 +9,7 @@ import {
   BarChart3,
   LogOut,
 } from "lucide-react";
+import Logo from "./Logo";
 
 function AdminSidebar() {
   const navigate = useNavigate();
@@ -82,9 +83,7 @@ function AdminSidebar() {
   return (
     <aside className="fixed top-0 left-0 w-64 h-screen bg-white dark:bg-slate-800 border-r border-slate-200 dark:border-slate-700 p-5 overflow-y-auto z-50">
 
-      <h1 className="text-2xl font-bold text-blue-600 mb-2">
-        CareBridge
-      </h1>
+      <Logo className="mb-2" imageClassName="h-20" />
 
       <div className="mb-8">
         <p className="text-xs uppercase tracking-wider text-slate-400">
@@ -104,7 +103,7 @@ function AdminSidebar() {
             className={({ isActive }) =>
               `flex items-center gap-3 p-3 rounded-xl transition-all ${
                 isActive
-                  ? "bg-blue-100 text-blue-600 font-medium"
+                  ? "bg-green-100 text-green-600 font-medium"
                   : "hover:bg-slate-100 dark:hover:bg-slate-700"
               }`
             }

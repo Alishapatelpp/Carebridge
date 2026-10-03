@@ -76,11 +76,11 @@ function Profile() {
 
           <div className="flex flex-col items-center">
 
-            <div className="w-24 h-24 rounded-full bg-blue-600 text-white flex items-center justify-center text-3xl font-bold">
+            <div className="w-24 h-24 rounded-full bg-green-600 text-white flex items-center justify-center text-3xl font-bold">
               {profile.name?.charAt(0)}
             </div>
 
-            <h1 className="text-2xl font-bold text-blue-600 mt-4">
+            <h1 className="text-2xl font-bold text-green-600 mt-4">
               {profile.name}
             </h1>
 
@@ -199,7 +199,7 @@ function Profile() {
             <button
               onClick={handleSave}
               disabled={loading}
-              className="bg-blue-600 text-white px-6 py-3 rounded-lg"
+              className="bg-green-600 text-white px-6 py-3 rounded-lg"
             >
               {loading
                 ? "Saving..."

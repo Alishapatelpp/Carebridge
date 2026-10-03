@@ -1,7 +1,7 @@
 function Hero() {
   return (
     <section className="flex flex-col items-center justify-center text-center px-6 py-20">
-      <h1 className="text-5xl md:text-7xl font-bold text-blue-600">
+      <h1 className="text-5xl md:text-7xl font-bold text-green-600">
         Find Medicines Faster
       </h1>
 
@@ -11,7 +11,7 @@ function Hero() {
       </p>
 
       <div className="flex gap-4 mt-8">
-        <button className="bg-blue-600 text-white px-6 py-3 rounded-xl hover:bg-blue-700 transition">
+        <button className="bg-green-600 text-white px-6 py-3 rounded-xl hover:bg-green-700 transition">
           Get Started
         </button>
 

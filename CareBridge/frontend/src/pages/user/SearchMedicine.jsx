@@ -56,7 +56,7 @@ function SearchMedicine() {
 
   return (
     <div className="p-6">
-      <h1 className="text-3xl font-bold mb-6 text-blue-700">
+      <h1 className="text-3xl font-bold mb-6 text-green-700">
         Search Medicine
       </h1>
 
@@ -73,7 +73,7 @@ function SearchMedicine() {
 
         <button
           onClick={searchMedicine}
-          className="bg-blue-600 hover:bg-blue-700 text-white px-6 rounded"
+          className="bg-green-600 hover:bg-green-700 text-white px-6 rounded"
         >
           Search
         </button>
@@ -87,7 +87,7 @@ function SearchMedicine() {
       </button>
 
       {loading && (
-        <div className="text-center text-blue-600">
+        <div className="text-center text-green-600">
           Searching medicines...
         </div>
       )}
@@ -104,7 +104,7 @@ function SearchMedicine() {
           className="bg-white shadow-lg rounded-lg p-5 mb-4 border"
         >
           <div className="flex justify-between items-center">
-            <h2 className="text-xl font-bold text-blue-700">
+            <h2 className="text-xl font-bold text-green-700">
               {item.pharmacyName}
             </h2>
 
