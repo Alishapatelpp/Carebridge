@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import api from "../../services/api";
+import medicineBackground from "../../assets/medicine-background.png";
 
 function Signup() {
   const navigate = useNavigate();
@@ -67,7 +68,15 @@ function Signup() {
   };
 
   return (
-    <div className="min-h-screen bg-slate-100 flex items-center justify-center px-4">
+    <div
+      className="min-h-screen bg-slate-100 flex items-center justify-center px-4"
+      style={{
+        backgroundImage: `linear-gradient(rgba(248, 250, 252, 0.58), rgba(248, 250, 252, 0.72)), url(${medicineBackground})`,
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "cover",
+      }}
+    >
       <div className="bg-white w-full max-w-md rounded-2xl shadow-lg p-8">
 
         <Link

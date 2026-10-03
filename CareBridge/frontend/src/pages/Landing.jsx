@@ -5,6 +5,7 @@ import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import FeatureCard from "../components/FeatureCard";
 import Footer from "../components/Footer";
+import medicineBackground from "../assets/medicine-background.png";
 
 import {
   Search,
@@ -23,6 +24,17 @@ function Landing() {
           ? "bg-slate-950 text-white"
           : "bg-slate-50 text-black"
       }`}
+      style={{
+        backgroundImage: `linear-gradient(${
+          darkMode
+            ? "rgba(2, 6, 23, 0.68), rgba(2, 6, 23, 0.78)"
+            : "rgba(248, 250, 252, 0.6), rgba(248, 250, 252, 0.78)"
+        }), url(${medicineBackground})`,
+        backgroundPosition: "center top",
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "cover",
+        backgroundAttachment: "fixed",
+      }}
     >
       <Navbar
         darkMode={darkMode}
