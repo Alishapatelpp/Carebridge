@@ -41,8 +41,10 @@ function Sidebar() {
           <Logo imageClassName="h-16" />
 
           <button
+            type="button"
             onClick={() => setOpen(true)}
             className="text-slate-700 dark:text-slate-300"
+            aria-label="Open navigation menu"
           >
             <Menu size={24} />
           </button>
@@ -79,8 +81,10 @@ function Sidebar() {
           <Logo imageClassName="h-20" />
 
           <button
+            type="button"
             className="md:hidden text-slate-700 dark:text-slate-300"
             onClick={() => setOpen(false)}
+            aria-label="Close navigation menu"
           >
             <X size={22} />
           </button>

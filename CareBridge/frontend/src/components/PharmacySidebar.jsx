@@ -122,7 +122,7 @@ const user = JSON.parse(
                 {user?.role || "Pharmacy"}
               </span>
 
-              <span className="text-xs text-slate-500">
+              <span className="text-xs text-slate-500 dark:text-slate-300">
                 Logged In
               </span>
             </div>
